@@ -1,0 +1,121 @@
+/*
+PROJETO INTEGRADOR - 2° PERÍODO DE ENGENHARIA DE SOFTWARE
+
+ALUNOS:
+
+Gustavo Cardoso Ribeiro - 833588
+João Carneiro da Cunha - 834519
+Rômulo Alexandre Ziotti - 833903
+Weslley Fratini - 826652
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    background-color: #eeeeef;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d1f7a;
+}
+
+nav .word {
+    float: right;
+}
+
+nav .word a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav img {
+    height: 50px;
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+
+nav .word a:hover:not(.active){
+    background-color: #eeaa00;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+cite {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+    min-height: 300px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+section h3 {
+    border-bottom: solid 2px #dddddd;
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+
+.selfie {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.pgabout {
+    line-height: 1.8;
+    margin-top: 5px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+footer {
+  background-color: #2d1f7a;
+  color: #FFF;
+  width: 100%;
+  padding: 50px 0px;  
+  text-align: center;
+}

@@ -1,0 +1,146 @@
+/*
+PROJETO INTEGRADOR - 2° PERÍODO DE ENGENHARIA DE SOFTWARE
+
+ALUNOS:
+
+Gustavo Cardoso Ribeiro - 833588
+João Carneiro da Cunha - 834519
+Rômulo Alexandre Ziotti - 833903
+Weslley Fratini - 826652
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d1f7a;
+}
+
+nav .word {
+    float: right;
+}
+
+nav .word a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    min-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .word a:hover:not(.active){
+    background-color: #eeaa00;
+}
+
+nav img {
+    height: 50px;
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+
+h2 {			
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: white;
+}
+
+section h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+}
+
+#questao {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+#grupo {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    padding-top: 60px;
+}
+
+.alternativas {
+    position: absolute;
+    left: 50%;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.alternativa {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+footer {
+    background-color: #2d1f7a;
+    color: #FFF;
+    width: 100%;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    display: block;
+    background-color: #eeaa00;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #b1741f;
+}

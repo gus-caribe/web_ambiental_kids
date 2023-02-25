@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+PROJETO INTEGRADOR - 2° PERÍODO DE ENGENHARIA DE SOFTWARE
+
+ALUNOS:
+
+Gustavo Cardoso Ribeiro - 833588
+João Carneiro da Cunha - 834519
+Rômulo Alexandre Ziotti - 833903
+Weslley Fratini - 826652
+-->
+
+<html lang="pt">
+    <head>
+        <title>Página Inicial - WEB Ambiental KIDS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/styleHome.css">
+        <link rel="shortcut icon" href="assets/images/logo.jpg">
+    </head>
+    
+    <body onload="slideShow()">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="./assets/images/logo.jpg" alt="Logo"></a></li>
+                    <li class="word"><a href="contato.html">Contato</a></li>
+                    <li class="word"><a href="postagens.html">Postagens</a></li>
+                    <li class="word"><a href="jogosEducativos.html">Jogos Educativos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="testimonials">
+                <div class="scroller">
+                    <div class="item">
+                        <img src="assets/images/jogos.jpg" alt="Menina criança sentada em uma pedra sorrindo">
+                        
+                        <div style="position: absolute; left: 50%; top: 65%; z-index: 2;">
+                            <div style="position: relative; left: -50%;">
+                                <p>
+                                    Venha jogar nossos jogos e aprender sobre o meio-ambiente!
+                                </p>
+                                <a href="jogosEducativos.html">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="assets/images/desperdicioAgua.jpg" alt="Ralo sugando água de um lavatório">
+                        
+                        <div style="position: absolute; left: 50%; top: 65%; z-index: 2;">
+                            <div style="position: relative; left: -50%;">
+                                <p>
+                                    A água está em tudo que usamos, mas ela não é infinita. Quer 
+                                    aprender como usá-la sem exagero? Então vem com a gente!
+                                </p>
+                                <a href="desperdicioDeAgua.html">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="assets/images/compostagem.jpg" alt="Caixas de compostagem em meio a um jardim verde">
+                        
+                        <div style="position: absolute; left: 50%; top: 65%; z-index: 2;">
+                            <div style="position: relative; left: -50%;">
+                                <p>
+                                    Venha aprender o que é compostagem e por que ela 
+                                    é tão importante.
+                                </p>
+                                <a href="compostagem.html">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/coletaSeletiva.jpg" alt="Latas de lixo reciclável amarela, azul, vermelha e verde, respectivamente">
+                        
+                        <div style="position: absolute; left: 50%; top: 65%; z-index: 2;">
+                            <div style="position: relative; left: -50%;">
+                                <p>
+                                    Vamos aprender a separar os lixos em cada lugar 
+                                    para melhorar cada vez mais o meio ambiente.
+                                </p>
+                                <a href="coletaSeletiva.html">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/floresta.jpg" alt="Floresta levemente densa coberta por névoa">
+
+                        <div style="position: absolute; left: 50%; top: 65%; z-index: 2;">
+                            <div style="position: relative; left: -50%;">
+                                <p>
+                                    Venha aprender a importância das florestas na nossa vida!
+                                </p>
+                                <a href="importanciaDasFlorestas.html">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="btn prev">&lt;</span>
+                <span class="btn next">&gt;</span>
+
+                <div class="dots">
+                    <div style="position: relative; left: -50%;">
+                        <span class="dot" id="dot1" onclick="scrollToSpecificItem(0)"></span>
+                        <span class="dot" id="dot2" onclick="scrollToSpecificItem(1)"></span>
+                        <span class="dot" id="dot3" onclick="scrollToSpecificItem(2)"></span>
+                        <span class="dot" id="dot4" onclick="scrollToSpecificItem(3)"></span>
+                        <span class="dot" id="dot5" onclick="scrollToSpecificItem(4)"></span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <b>Desenvolvido por:</b><br>
+            
+            Gustavo Cardoso Ribeiro, João Carneiro da Cunha, Rômulo Alexandre Ziotti, Weslley Fratini<br><br>
+            
+            <b>Códigos de matrícula, respectivamente:</b> 833.588, 834.519, 833.903, 826.652<br><br>
+            
+            <b>E-mails para contato:</b><br>
+            
+            gustavocaribe.br@gmail.com, joao.carneiro333@gmail.com, romulo_ziotti@hotmail.com, weeslleey354@gmail.com<br>
+            
+            <a href="sobreNos.html">Sobre Nós</a>
+        </footer>
+        
+        <script type="text/javascript" src="assets/js/scriptHome.js"></script>
+    </body>
+</html>

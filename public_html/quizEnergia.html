@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+PROJETO INTEGRADOR - 2° PERÍODO DE ENGENHARIA DE SOFTWARE
+
+ALUNOS:
+
+Gustavo Cardoso Ribeiro - 833588
+João Carneiro da Cunha - 834519
+Rômulo Alexandre Ziotti - 833903
+Weslley Fratini - 826652
+-->
+
+<html lang="pt">
+    <head>
+        <title>Desperdício de Energia - QUIZ - WEB Ambiental KIDS</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/styleGames.css">
+        <link rel="shortcut icon" href="assets/images/logo.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="./assets/images/logo.jpg" alt="Logo"></a></li>
+                    <li class="word"><a href="contato.html">Contato</a></li>
+                    <li class="word"><a href="postagens.html">Postagens</a></li>
+                    <li class="word"><a href="jogosEducativos.html">Jogos Educativos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Desperdício de Energia - QUIZ</h1>
+                <div id="questao"></div>
+
+                <div id="grupo">
+                    <div class="alternativas">
+                        <div style="position: relative; left: -50%;">
+                            <button type="button" onclick="processar_escolha(0, etapa_atual)" id="botao-a" style="background-color: #ff3333">A</button>
+                            <div id="alternativa-a" class="alternativa"> </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="alternativas">
+                        <div style="position: relative; left: -50%;">
+                            <button type="button" onclick="processar_escolha(1, etapa_atual)" id="botao-b" style="background-color: #ffff33">B</button>
+                            <div id="alternativa-b" class="alternativa"> </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="alternativas">
+                        <div style="position: relative; left: -50%;">
+                            <button type="button" onclick="processar_escolha(2, etapa_atual)" id="botao-c" style="background-color: #3333ff">C</button>
+                            <div id="alternativa-c" class="alternativa"> </div>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="alternativas">
+                        <div style="position: relative; left: -50%;">
+                            <button type="button" onclick="processar_escolha(3, etapa_atual)" id="botao-d" style="background-color: #33ffff">D</button>
+                            <div id="alternativa-d" class="alternativa"> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer>
+            <b>Desenvolvido por:</b><br>
+
+            Gustavo Cardoso Ribeiro, João Carneiro da Cunha, Rômulo Alexandre Ziotti, Weslley Fratini<br><br>
+
+            <b>Códigos de matrícula, respectivamente:</b> 833.588, 834.519, 833.903, 826.652<br><br>
+
+            <b>E-mails para contato:</b><br>
+
+            gustavocaribe.br@gmail.com, joao.carneiro333@gmail.com, romulo_ziotti@hotmail.com, weeslleey354@gmail.com<br>
+
+            <a href="sobreNos.html">Sobre Nós</a>
+        </footer>
+        
+        <script type="text/javascript" src="assets/js/scriptQuizEnergia.js"></script>
+    </body>
+</html>

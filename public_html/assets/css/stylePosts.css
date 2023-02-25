@@ -1,0 +1,136 @@
+/*
+PROJETO INTEGRADOR - 2° PERÍODO DE ENGENHARIA DE SOFTWARE
+
+ALUNOS:
+
+Gustavo Cardoso Ribeiro - 833588
+João Carneiro da Cunha - 834519
+Rômulo Alexandre Ziotti - 833903
+Weslley Fratini - 826652
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    background-color: #eeeeef;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d1f7a;
+}
+
+nav .word {
+    float: right;
+}
+
+nav .word a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav img {
+    height: 50px;
+    width: 130px;
+    float: left;
+    margin-left: 20px;
+}
+
+nav .word a:hover:not(.active){
+    background-color: #eeaa00;
+}
+        
+section {
+    width: 95%;
+    margin-top: 40px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+            
+section h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    max-width: 350px;
+}
+
+#text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+
+section p {
+    font-weight: normal;
+    font-size: 100%;
+    text-indent: 2em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+section p a {
+    text-decoration: none;
+}
+
+section p a:hover {
+    font-weight: bold;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2d1f7a;
+    color: #FFF;
+    width: 100%;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    display: block;
+    background-color: #eeaa00;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #b1741f;
+}
